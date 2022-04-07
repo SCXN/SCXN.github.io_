@@ -1,4 +1,26 @@
-@media screen and (min-width: 500px), (min-width: 850px){
+@media screen and (min-width: 600px), (min-width: 850px){
+        h2 i{
+        width: fit-content;
+        margin-right: 3vw;
+        padding: 0 0 0 .6em;
+        /*border-radius: 2.22px;*/
+    }
+    .titleTile{
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        border-left: 1em solid rgba(0, 0, 0, 0.45)
+    }
+    #specialHeader h2 div{
+        /*background-color: green;*/
+        text-align: right;
+    }
+    h2 sup:nth-of-type(2){
+    display: block;
+    }
+    h2 sup:last-of-type{
+        display: none;
+    }
 	.adaptFlex {flex-direction: row;}
     #contactElevatorTag h1{
         display: none;
@@ -96,7 +118,6 @@
     #contactMenu > *{
     padding-left: 1.3em;
     }
-    
 }
 @media screen and (min-height:630px) and (min-width:823px) {
     .icon{
@@ -191,32 +212,6 @@
     h2 i{
         width: fit-content;
         margin-right: 3vw;
-        padding: 0;
-        /*border-radius: 2.22px;*/
-    }
-    .titleTile{
-        border: none;
-    }
-    #specialHeader h2 div{
-        /*background-color: green;*/
-        text-align: right;
-    }
-    h2 sup:nth-of-type(2){
-    display: block;
-    }
-    h2 sup:last-of-type{
-        display: none;
-    }
-    .w90{
-        width:100%;
-    }
-    ul.menuList{ 
-        margin-top: 0em;}
-}
-@media screen and (min-aspect-ratio:160/90){
-    h2 i{
-        width: fit-content;
-        margin-right: 3vw;
         padding: 0 0 0 .6em;
         /*border-radius: 2.22px;*/
     }
@@ -236,9 +231,11 @@
     h2 sup:last-of-type{
         display: none;
     }
-    .w90{
-        width:100%;
-    }
+    ul.menuList{ 
+        margin-top: 0em;}
+}
+@media screen and (min-aspect-ratio:160/90){
+
     ul.menuList{ 
         margin-top: .1em;}
 }
