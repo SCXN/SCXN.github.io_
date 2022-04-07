@@ -389,7 +389,7 @@ background-color: rgba(255,255,255,0.0);
 }
 #contactPad {
     background-image: linear-gradient(white, whitesmoke);
-    box-shadow: 0px 0px 50vh rgba(51, 51, 51, 0.66);
+    /*box-shadow: 0px 0px 50vh rgba(51, 51, 51, 0.66);*/
     z-index:1;
     position:relative;
 }
