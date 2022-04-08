@@ -23,8 +23,10 @@
     overflow-y: scroll;
     max-height: calc(97vh - 2em);
     height: 80vh;
-    width: 80vw;
+    width: 85vw;
+    max-width: 1001px;
     z-index: 13;
     /*box-shadow: inset 0px 0px 20px black; —optional */
     border-radius: 2.34px;
+    border: 1px solid rgba(206, 206, 206, 0.6);
 }
