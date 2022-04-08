@@ -118,6 +118,18 @@
     #contactMenu > *{
     padding-left: 1.3em;
     }
+    .storeGallery{
+        /*background-color: hotpink;*/
+        overflow-y: scroll;
+        max-height: calc(94vh - 4em);
+        height: 70vh;
+        width: 90vw;
+        z-index: 13;
+        /*box-shadow: inset 0px 0px 20px black; —optional */
+    }
+    #goToShopButton{
+    margin: 1em 0 0;
+}
 }
 @media screen and (min-height:630px) and (min-width:823px) {
     .icon{
