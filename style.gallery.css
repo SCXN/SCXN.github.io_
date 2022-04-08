@@ -183,17 +183,6 @@ h2 i{
 .gridFormat4{ /* Gallery format */
     grid-template-columns: 1fr 1fr ;
 }
-#galleryMasterCase::-webkit-scrollbar {
-    width: 9px;
-}
-#galleryMasterCase::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-    border-radius: 10px;
-}
-#galleryMasterCase::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-}
 .zoomImgCase{
     overflow: hidden;
 }
