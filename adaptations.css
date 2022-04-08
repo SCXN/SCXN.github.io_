@@ -130,6 +130,7 @@
     #goToShopButton{
     margin: 1em 0 0;
 }
+
 }
 @media screen and (min-height:630px) and (min-width:823px) {
     .icon{
@@ -254,5 +255,21 @@
 @media screen and(min-width:1366px){
     .exhibit{
         display: none;
+    }
+}
+@media screen and (min-width:825px){
+    .storeGallery::-webkit-scrollbar,
+    #galleryMasterCase::-webkit-scrollbar {
+        width: 9px;
+    }
+    .storeGallery::-webkit-scrollbar-track,
+    #galleryMasterCase::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+        border-radius: 10px;
+    }
+    .storeGallery::-webkit-scrollbar-thumb,
+    #galleryMasterCase::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
     }
 }
