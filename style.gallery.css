@@ -98,8 +98,8 @@ a{
     justify-content: center;
     align-items: flex-start;
 }
-h1.vertCentered_,
 h1.vertCentered__,
+h1.vertCentered_,
 h2.vertCentered,
 h3.vertCentered,
 h4.vertCentered,
@@ -107,6 +107,10 @@ h5.vertCentered,
 p.vertCentered_,
 a.vertCentered{
     width: 90%;
+}
+h1.vertCentered__{
+    margin-left: 3%;
+    /*background-color: aqua;*/
 }
 /*
 .vertCentered span{
@@ -138,7 +142,7 @@ h2 i{
     /*border-radius: 2.22px;*/
 }
 .titleTile{
-    border: 5vw solid rgba(0, 0, 0, 0.45);
+    border: 1em solid rgba(0, 0, 0, 0.45);
     white-space: nowrap;
     margin-right: 1em;
 }
@@ -148,11 +152,11 @@ h2 i{
 #socialStrategyTile{border-color: var(--socialStrategy45);}
 #jinglesAndThemesTile{border-color: var(--jinglesAndThemes45);}
 
-#graphicsPad .magBottom{border-top: 4px solid var(--graphics66);}
-#brandingPad .magBottom{border-top: 4px solid var(--branding66);}
-#webDevelopmentPad .magBottom{border-top: 4px solid var(--webDevelopment66);}
-#socialStrategyPad .magBottom{border-top: 4px solid var(--socialStrategy66);}
-#jinglesAndThemesPad .magBottom{border-top: 4px solid var(--jinglesAndThemes66);}
+#graphicsPad .magBottom{border-top: 4px solid var(--graphics45);}
+#brandingPad .magBottom{border-top: 4px solid var(--branding45);}
+#webDevelopmentPad .magBottom{border-top: 4px solid var(--webDevelopment45);}
+#socialStrategyPad .magBottom{border-top: 4px solid var(--socialStrategy45);}
+#jinglesAndThemesPad .magBottom{border-top: 4px solid var(--jinglesAndThemes45);}
 
 .grid{
     display: grid;
